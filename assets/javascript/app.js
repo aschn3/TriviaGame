@@ -41,6 +41,7 @@ function startGame(){
 	$('.correct').html("You have " + correctAnswer + " correct answers!");
 	$('.inCorrect').html("You have " + inCorrectAnswer + " incorrect answers!");
 	$('.result p').addClass('stylish');
+	console.log(incorrect)
 
 }
 

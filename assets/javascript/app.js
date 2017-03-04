@@ -1,6 +1,6 @@
 
 
-//global variables
+
 var answers = [ 'Florida','UCLA', 'Mike Krzyzewski', 'Carmelo Anthony'],   //correct answers
 	 data = $('input'),
 	 correctAnswer = 0,
@@ -14,7 +14,7 @@ function startGame(){
 
 	for(var i =0; i < data.length; i++){
 		if(data[i].checked){
-			//console.log(data[i].value);
+			
 			if(answers.indexOf(data[i].value) !== -1){
 				correctAnswer++;
 		}
@@ -23,8 +23,7 @@ function startGame(){
 			}
 			
 			}
-			//else{
-				//console.log("You have not checked anything!")
+			
 			}
 
 		

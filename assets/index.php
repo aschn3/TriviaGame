@@ -1,1 +1,1 @@
-<?php include_once("TriviaGame/assets"); ?>
+<?php include_once("TriviaGame.html"); ?>
